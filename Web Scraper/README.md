@@ -1,37 +1,37 @@
 # Webpage Analysis Code Explanation
 
-## 1. Importing Libraries
+## 1. Python libraries are imported
 Libraries used are:
 - `requests`: To send HTTP requests to a web page and fetch the content.
 - `BeautifulSoup`: To parse the HTML content of the page.
 
-\`\`\`python
+```python
 import requests
 from bs4 import BeautifulSoup
-\`\`\`
+```
 
-## 2. Fetching Webpage Content
+## 2. This section fetches webpage content
 The URL to analyze is specified, the content is fetched, and the HTML is parsed.
 
-\`\`\`python
+```python
 url = 'URL'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
-\`\`\`
+```
 
-## 3. Checking Title Length
+## 3. This section checks the title length
 The title of the page is found, and its length is calculated.
 
-\`\`\`python
+```python
 title = soup.find('title').string
 title_length = len(title)
 print(f'Title: {title}\nLength: {title_length}')
-\`\`\`
+```
 
-## 4. Checking Meta Description
+## 4. This section checks the meta description
 The meta description tag is found and checked. If not found, its length is set to 0.
 
-\`\`\`python
+```python
 meta_description_tag = soup.find('meta', attrs={'name': 'description'})
 if meta_description_tag:
     meta_description = meta_description_tag.get('content')
@@ -40,25 +40,23 @@ else:
     meta_description = None
     meta_description_length = 0
 print(f'Meta description: {meta_description}\nLength: {meta_description_length}')
-\`\`\`
+```
 
-## 5. Checking for H1 Tags
+## 5. This section checks for H1 tags
 All `<h1>` tags are found, and their number and content are printed.
 
-\`\`\`python
+```python
 h1_tags = soup.find_all('h1')
 print(f'Number of H1 tags: {len(h1_tags)}')
 for tag in h1_tags:
     print(tag.string)
-\`\`\`
+```
 
-## 6. Checking for Broken Links
+## 6. This section checks for broken links
 All anchor tags with links are found, and each link is checked to see if it's broken.
-
-## 7. Checking for Broken Links
 This part of the code loops through all anchor tags with links and checks if they are broken. It ignores links that are only anchors (`#`) or email addresses (`mailto:`) and verifies the remaining links.
 
-\`\`\`python
+```python
 for link in soup.find_all('a', href=True):
     try:
         link_url = link['href']
@@ -75,7 +73,7 @@ for link in soup.find_all('a', href=True):
             print(f'Broken link: {link_url} (status code: {r.status_code})')
     except requests.exceptions.RequestException as e:
         print(f'Error checking link: {link_url} (error: {e})')
-\`\`\`
+```
 
 This section of code helps in identifying broken links on the webpage, which can be useful for website maintenance and SEO improvement.
 
