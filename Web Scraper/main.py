@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.embibe.com/exams/acceleration/'  # replace with the URL you want to analyze
+url = '[URL]'  # replace with the URL you want to analyze
 
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
