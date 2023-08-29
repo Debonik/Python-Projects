@@ -8,3 +8,4 @@
 * [Blockchain Implementation](https://github.com/Debonik/Python-Projects/tree/main/Blockchain%20Implementation)
 * [Server Downtime Tool](https://github.com/Debonik/Python-Projects/tree/main/Server%20Downtime%20Tool)
 * [Subdomain Finder](https://github.com/Debonik/Python-Projects/tree/main/Subdomain%20Finder)
+* [Password Generator](https://github.com/Debonik/Python-Projects/tree/main/Password%20Generator)
