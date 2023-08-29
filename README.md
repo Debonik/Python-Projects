@@ -6,3 +6,4 @@
 * [Fake Data Generator](https://github.com/Debonik/Python-Projects/tree/main/Fake%20Data%20Generation)
 * [Keyword Extractor](https://github.com/Debonik/Python-Projects/tree/main/Keyword%20Extractor)
 * [Blockchain Implementation](https://github.com/Debonik/Python-Projects/tree/main/Blockchain%20Implementation)
+* [Server Downtime Tool](https://github.com/Debonik/Python-Projects/tree/main/Server%20Downtime%20Tool)
