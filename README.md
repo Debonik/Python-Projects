@@ -10,3 +10,4 @@
 * [Subdomain Finder](https://github.com/Debonik/Python-Projects/tree/main/Subdomain%20Finder)
 * [Password Generator](https://github.com/Debonik/Python-Projects/tree/main/Password%20Generator)
 * [Simple Firewall Implementation](https://github.com/Debonik/Python-Projects/tree/main/Simple-Firewall-Implementation)
+* [User-Rating Recommendation System](https://github.com/Debonik/Python-Projects/tree/main/User-Rating%20Recommendation%20System)
