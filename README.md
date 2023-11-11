@@ -13,4 +13,5 @@
 * [User-Rating Recommendation System](https://github.com/Debonik/Python-Projects/tree/main/User-Rating%20Recommendation%20System)
 * [URL Shortener](https://github.com/Debonik/Python-Projects/tree/main/URL%20Shortener)
 * [Image Caption Generator](https://github.com/Debonik/Python-Projects/tree/main/Image%20Caption%20Generator)
+* [Weather Forecast App](https://github.com/Debonik/Python-Projects/tree/main/Weather%20Forecast%20App)
 
