@@ -11,3 +11,4 @@
 * [Password Generator](https://github.com/Debonik/Python-Projects/tree/main/Password%20Generator)
 * [Simple Firewall Implementation](https://github.com/Debonik/Python-Projects/tree/main/Simple-Firewall-Implementation)
 * [User-Rating Recommendation System](https://github.com/Debonik/Python-Projects/tree/main/User-Rating%20Recommendation%20System)
+* [URL Shortener](https://github.com/Debonik/Python-Projects/tree/main/URL%20Shortener)
