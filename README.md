@@ -14,4 +14,5 @@
 * [URL Shortener](https://github.com/Debonik/Python-Projects/tree/main/URL%20Shortener)
 * [Image Caption Generator](https://github.com/Debonik/Python-Projects/tree/main/Image%20Caption%20Generator)
 * [Weather Forecast App](https://github.com/Debonik/Python-Projects/tree/main/Weather%20Forecast%20App)
+* [Sudoku Solver](https://github.com/Debonik/Python-Projects/tree/main/Sudoku%20Solver)
 
